@@ -1,1 +1,8 @@
+# NPM
 node_modules/
+
+# Jest
+coverage/
+
+# Vscode
+.vscode/
