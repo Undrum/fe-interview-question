@@ -10,9 +10,11 @@ export const isNull = (val) => val === null;
 
 export const isUndefined = (val) => val === undefined;
 
-export const isObject = (val) => !isNull(val) && typeof val === "object";
+export const isFunc = (val) => typeof val === "function";
 
 export const isObjectOrNull = (val) => typeof val === "object";
+
+export const isObject = (val) => !isNull(val) && isObjectOrNull(val);
 
 export const isFunction = (val) => getType(val) === FUNC_TYPE;
 

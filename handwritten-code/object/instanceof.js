@@ -7,7 +7,7 @@ export default function instanceofOP(lo, ro) {
     if (isNull(ro))
         throw new Error("Right-hand side of 'instanceof' is not an object");
 
-    const roProto = Object.getPrototypeOf(ro.prototype);
+    const roProto = ro.prototype;
     let loProto = Object.getPrototypeOf(lo);
 
     while (loProto) {
