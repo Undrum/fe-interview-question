@@ -1,0 +1,23 @@
+{
+  "name": "fe-interview-question",
+  "version": "1.0.0",
+  "description": "Some front-end interview questions.",
+  "main": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Undrum/fe-interview-question.git"
+  },
+  "author": "Undrum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Undrum/fe-interview-question/issues"
+  },
+  "homepage": "https://github.com/Undrum/fe-interview-question#readme",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "jest": "^27.3.1"
+  }
+}
